@@ -6,7 +6,7 @@ node {
 
     env.AWS_ECR_LOGIN=true
     def newApp
-    def registry = 'krandmm/nodejs-app'
+    def registry = 'krandmm/nodejs-coreapp'
     def version = ':v0.1.'
     def registryCredential = 'docker-hub'
 	
